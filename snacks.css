@@ -61,6 +61,14 @@ fieldset{
     border-radius: 3px;
 }
 
+.price{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 .buttons{
     display:flex;
     justify-content: center;
@@ -71,6 +79,47 @@ fieldset{
     padding: 10px 50px;
     font-size:20px;
 }
+
+
+.fee{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.col{
+    margin-right:10px;
+}
+
+.crdt_details label{
+    display: inline-block;
+    width:200px;
+    text-align: right;
+    margin-right: 3px;
+}
+
+.crdt_details input{
+    display: inline-block;
+    width:200px;
+}
+
+.crdt_details select{
+    display: inline-block;
+    width: 204px;
+    height: 21px;
+}
+
+.crdt_details fieldset{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
 
 .button + .button{
     margin-left:100px;
